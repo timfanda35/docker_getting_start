@@ -53,6 +53,16 @@ Edit `docker-compose.yaml`
 
 ## Run container with docker compose
 
+The directory architecture:
+
+    .
+    ├── docker-compose.yaml
+    └── webapp
+        ├── Dockerfile
+        └── config.ru
+    
+Start services
+
     docker-compose up
 
 You can launch browser and access http://127.0.0.1:8080
