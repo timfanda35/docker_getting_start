@@ -18,8 +18,6 @@ Download specific version of the container image
 
 ## Run a container
 
-Run container
-
 `-d` Running in background
 
 `-p` Binding port, format: `LOCAL_PORT:CONTAINER_PORT`
@@ -30,11 +28,11 @@ Run container
 
 You can launch browser and access http://127.0.0.1:8080
 
-List running container
+## List running container
 
     docker ps
 
-Remove container
+## Remove container
 
 `-f` Force action
 
