@@ -4,7 +4,7 @@ Install Docker Compose: https://docs.docker.com/compose/install/
 
 ## Create project
 
-    mkdir compose/webapp
+    mkdir -p compose/webapp
     cd compose
 
 ## Create Applicaton
