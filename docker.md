@@ -148,7 +148,7 @@ Inspect image layers with `dive` again
 
 ## Mount a volume
 
-Edit `html/ndex.html`
+Edit `html/index.html`
 
     Local King
 
@@ -158,7 +158,7 @@ Run container
 
 You can launch browser and access http://127.0.0.1:8080
 
-Edit `html/ndex.html`
+Edit `html/index.html`
 
     Local King2
 
@@ -166,7 +166,7 @@ You can launch browser and access http://127.0.0.1:8080
 
 Remove container
 
-    docker rm -f nginx_v2
+    docker rm -f nginx
 
 ## Push image to registry
 
