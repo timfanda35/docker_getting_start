@@ -6,7 +6,7 @@ Install [Heroku CLI Tool](https://devcenter.heroku.com/articles/heroku-cli#downl
 
 ## Create project
 
-    mkdir heroku-test/webapp
+    mkdir -p heroku-test/webapp
     cd heroku-test
 
 ## Create application
@@ -25,7 +25,7 @@ Edit `Dockerfile`
 
     RUN gem install rack
 
-    ADD .webapp /opt/webapp
+    ADD ./webapp /opt/webapp
     WORKDIR /opt/webapp
 
     RUN adduser -D myuser
@@ -75,4 +75,4 @@ Release applicaiton
 
 Test application
 
-    heroku
+    heroku open
